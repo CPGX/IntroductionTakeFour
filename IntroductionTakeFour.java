@@ -1,6 +1,7 @@
 public class IntroductionTakeFour {
 
     public static String myTeaToday = "Oolong";
+    public static String morningTea;
 
 
     public static void myName(String firstName, String middleName, String lastName){
@@ -27,7 +28,7 @@ public class IntroductionTakeFour {
         System.out.println(myFavFoods);
     }
 
-    public static void todaysTea (String myTeaToday) {
+    public static void todaysTea () {
 
     
         switch (myTeaToday) {
@@ -88,6 +89,25 @@ public class IntroductionTakeFour {
 
     }
 
+    public static void fourTeasADay () {
+
+        //morningTea = Constants.earlGrey;
+
+
+    /*
+    
+      if (morningTea = Constants.earlGrey) {
+            System.out.println("Good choice for a breakfast tea. Hopefully it will wake you up...");
+        } 
+            else if (morningTea = "Lady Grey") {
+
+        }
+    
+    */   
+    
+
+    }
+
 
 public static void main(String[] args) {
 
@@ -107,7 +127,9 @@ public static void main(String[] args) {
     System.out.println("We can't forget, goldfish are the revolution.");
 
     System.out.println("My tea for today is " + myTeaToday);
-    todaysTea("Oolong");
+
+    //System.out.println(Constants.myMorningTea);
+    
 
 }
 
